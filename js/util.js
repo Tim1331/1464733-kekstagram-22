@@ -16,7 +16,6 @@ const selectBackward = (min, max) => {
   }
 }
 
-selectBackward(0, 5);
 //ниже будет код cтрелочной функции checkMaximumLength
 
 const checkMaximumLength = (checkedString, maxLength) => {
@@ -26,6 +25,4 @@ const checkMaximumLength = (checkedString, maxLength) => {
   return (' Строка не проходит по длинне');
 };
 
-checkMaximumLength('Это мой первый комментарий здесь!', 140);
-
-export {chooseNumber};
+export {chooseNumber, selectBackward, checkMaximumLength};
