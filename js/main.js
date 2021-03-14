@@ -1,4 +1,2 @@
-import './arrays.js';
-import {generateFinal} from './generate-date';
+import './render.js';
 
-generateFinal(25);
