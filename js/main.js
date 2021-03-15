@@ -1,2 +1,2 @@
-import './arrays.js';
-import './generate-date';
+import './render.js';
+
