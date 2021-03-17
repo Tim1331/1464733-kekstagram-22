@@ -1,5 +1,5 @@
 import './render.js';
-import './uploading-editing.js';
+import './uploading.js';
 import './resize.js';
 
 
