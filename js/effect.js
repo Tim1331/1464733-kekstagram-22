@@ -22,9 +22,9 @@ const picturePreview = uploadForm.querySelector('.img-upload__preview');
 
 //Создаем функцию
 
-const addEffectsClickHandler = (effectsRadio, effects) => {
+const addEffectsClickHandler = (effectsRadio, effect) => {
   effectsRadio.addEventListener('click', () => {
-    picturePreview.classList.add(effects);
+    picturePreview.classListName = effect;
   });
 }
 
