@@ -16,7 +16,7 @@ const transformData = () => {
     const arrayValue = Object.values(value);
     pictureImg.src = arrayValue[1];
     pictureLikes.textContent = arrayValue[3];
-    pictureComments.length = arrayValue[5];
+    pictureComments.textContent = arrayValue[4].length;
     const pictureClone = picture.cloneNode(true);
     containerPictures.appendChild(pictureClone);
   });
